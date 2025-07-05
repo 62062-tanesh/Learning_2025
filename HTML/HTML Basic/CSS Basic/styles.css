@@ -1,0 +1,34 @@
+h1{
+    color: black;
+    background-color: beige;
+}
+.first{
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    border-radius: 5px;
+    color: aqua;
+}
+.second{
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    border-radius: 5px;
+    color: aqua; 
+}
+
+
+#new1{
+
+}
+*{
+    color: red;
+    background-color: yellow;
+    border: solid bl;
+}
+[type = "text"]{
+    background-color:red;
+}
+.first:hover{
+    background-color: white;
+}

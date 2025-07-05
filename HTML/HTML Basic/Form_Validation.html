@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        
+    </style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form Validation</title>
+</head>
+
+<body>
+    <h1>Form Validaiton</h1>
+    <form action="/submit" method="post">
+        <label for="name">Name</label><br>
+        <input type="text" name="name" id="name"><br>
+        <label for="email">Name</label><br>
+        <input type="email" name="email" id="email" required><br>
+        <label for="website">WEBSITE</label><br>
+        <input type="url" name="website" id="website"><br>
+        <label for="age">Age</label><br>
+        <input type="number" name="age" id="age" min="18" max="100"><br><br>
+        <label for="birthdate">Birth_Date:</label>
+        <input type="date" name="age" id="birthdate"><br><br>
+        <label for="phone">Phone_No</label>
+        <input type="tel" name="name" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+        <small>Format : 123-456-7890</small><br>
+        <label for="password">Password:</label><br>
+        <input type="password" name="password" id="password" pattern="{8}" title="Eight or more characters" required>
+        <br>
+        <input type="submit" value="submit">
+    
+    </form>
+</body>
+
+</html>

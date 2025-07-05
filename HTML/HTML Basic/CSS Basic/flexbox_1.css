@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.flexcontainter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: aqua;
+    padding: 10px;
+}
+.flexItem{
+    width: 60px;
+    height: 50px;
+    border: 2px solid black;
+    /* border: solid 2px black; */
+
+}
+.boxA{
+    background-color: blue;
+    
+}
+h1{
+    text-align: center;
+}
